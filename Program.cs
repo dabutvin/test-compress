@@ -8,7 +8,7 @@ namespace test_compress
     {
         static void Main(string[] args)
         {
-            var file = new FileInfo("zayn.png");
+            var file = new FileInfo("/home/app/zayn.png");
             var imageOptimizer = new ImageOptimizer
             {
                 OptimalCompression = true,
